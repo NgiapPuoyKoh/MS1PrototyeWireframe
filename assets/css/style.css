@@ -1,0 +1,76 @@
+/* @import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap'); */
+
+* {
+    margin:0;
+    padding:0;
+    border:0;  
+  /* border: 0; */
+  /* turn on debug borders */
+  border: 1px solid red;
+}
+
+p {
+  display: inline-block;
+  padding: 1.1em;
+  line-height: 1.5em;
+}
+
+h5 {
+  margin-bottom: 0.25em;
+}
+
+/* body {
+    font-family: 'Roboto', sans-serif;
+} */
+
+/*
+body {
+    font-family: $font-family-base;
+    font-size:   $font-size-base;
+    line-height:   $line-height-base;
+    
+
+    background-color $body-bg;
+}
+
+a, a:hover {
+     color: #9b59b6;
+}
+*/
+
+
+/* Page Menu */
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+/* Magnify Images */
+img {
+  margin: auto
+  background-size: 120%; 
+}
+
+/* Modal Fille Device Viewport */
+.modal-body {
+  margin:auto;
+  max-width:100%;
+}
+
+.modal-dialog { 
+  max-width: 100%; 
+} 
+
+/* -------------------------------------------Feedback Form */
+
+.center-form {
+  padding-top: 10px;
+  margin: auto;
+  max-width: 70%
+}
+
+button[type='submit'] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+/* -------------------------------------------/Feedback Form */
